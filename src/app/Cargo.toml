@@ -1,0 +1,11 @@
+[package]
+name = "lish-backend-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lish-domain = { path = "../domain" }
+lish-backend-core = { path = "../core" }
+lish-backend-usecase = { path = "../usecase" }
