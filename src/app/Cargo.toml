@@ -9,3 +9,6 @@ edition = "2021"
 lish-domain = { path = "../domain" }
 lish-backend-core = { path = "../core" }
 lish-backend-usecase = { path = "../usecase" }
+
+actix-web = "4"
+env_logger = "0.9.0"
